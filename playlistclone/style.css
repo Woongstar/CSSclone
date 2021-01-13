@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+.main{
+  border: solid 4px #00c6ad;
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.header>i{
+  margin-left: 0;
+}
+.header>span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-title{
+  display: flex;
+}
+.main_icon{
+  width: 50px;
+  height: 50px;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.main_icon>i{
+  color: white;
+}
+.main_content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.main_content_title{
+  font-size: 30px;
+  font-weight: 600;
+}
+.main_content_singer{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.buttons{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons>button{
+  background-color: white;
+  height: 40px;
+  box-shadow: 0px 5px;
+
+}
+.buttons>button:first-child{
+  width: 50%;
+  border-radius: 7px; 
+}
+.buttons>button:nth-child(2), .buttons>button:last-child{
+  width: 40px;
+  border-radius: 50%;
+}
+.music_container{
+  display: flex;
+  flex-direction: column;
+}
+.music_list{
+  display: flex;
+  margin-top: 20px;
+}
+.list__content{
+  display: flex;
+  flex-direction: column;
+}
+.list__icon{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+.music_list:first-child>.list__icon{
+background: #f85a2a;
+}
+.music_list:nth-child(2)>.list__icon{
+  background: #ff89bb;
+}
+.music_list:nth-child(3)>.list__icon{
+  background-color:#1947e5; 
+}
+.music_list:nth-child(4)>.list__icon{
+  background-color: #00c6ad;
+}
+.content__title{
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.content__subtitle{
+  color: gray;
+  font-size: 14px;
+  font-weight: 300;
+}
