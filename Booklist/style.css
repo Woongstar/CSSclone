@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  padding: 10px;
+  width: 400px;
+  background-color: #b1e0e7;
+}
+.header{
+  background-color: #ffce33;
+  height: 60px;
+}
+.title{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 10px 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.header-input{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.header-input>i{
+  position: absolute;
+  right: 110px;
+  top: 3px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.header-input>input{
+  border: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 25px;
+  padding: 5px;
+}
+
+.container{
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.bookimg>img{
+  width: 100px;
+  height: 140px;
+  border-radius: 10px;
+}
+.book-detail{
+  display: flex;
+}
+.bookcontent{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.content-title{
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 600;
+}
+.bookcontent>div{
+  margin-bottom: 7px;
+}
+.bookcontent1{
+  font-weight: 600;
+}
+.bookcontent2{
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 8px;
+}
+.bookcontent3>i{
+  color: #ffce33;
+  font-size: 7px;
+}
+
+.bookcontent3>i:last-child{
+  color:gray;
+} 
+.bookcontent4>button{
+    border: none;
+    font-size: 8px;
+    font-weight: 500;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.bookcontent4{
+  margin-top: 4px;
+}
+.bookcontent5{
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.bookcontent5>button{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 8px;
+  padding: 0px 20px;
+}
+.bookcontent5>i{
+  color: #ffce33;
+  padding: 3px;
+  font-size: 20px;
+}
+.books{
+  display: flex;
+}
+.book{
+  margin: 10px;
+}
+.bookmain>img{
+  width: 100px;
+  height: 140px;
+  border-radius: 7px;
+}
+.bookstar>i{
+  color: #ffce33;
+  font-size: 7px;
+  padding-left: 3px;
+}
+.author{
+  display: flex;
+}
+.authorimg>img{
+  width: 100px;
+  height: 110px;
+  border-radius: 5px;
+}
+.authorcontent{
+  margin: 10px;
+}
+.authortitle{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.authorsubtitle{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
