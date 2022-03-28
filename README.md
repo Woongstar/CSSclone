@@ -7,3 +7,4 @@ Practice CSS
 
 <img width="679" alt="image" src="https://user-images.githubusercontent.com/69667560/160278192-d38d07dd-8186-4afc-ae77-cf418c9231eb.png">
 
+<img width="472" alt="image" src="https://user-images.githubusercontent.com/69667560/160364275-f9b633ac-1170-4a5c-b410-9faa1caec5d3.png">
